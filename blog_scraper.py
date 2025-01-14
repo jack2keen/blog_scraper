@@ -37,7 +37,7 @@ def scrape_medium_blog(url):
 
 
 if __name__ == "__main__":
-    blog_url = "https://blog.fabrichq.ai/top-d2c-metrics-a-brand-should-track-daily-weekly-and-monthly-1ea347816e0d"  # Replace blog URL
+    blog_url = "Put Your URL here"  # Replace blog URL
     blog_data = scrape_medium_blog(blog_url)
 
     if "error" in blog_data:
